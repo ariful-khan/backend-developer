@@ -1,0 +1,25 @@
+{
+    "name": "linio/backend-developer",
+    "description": "This is the linio recruiting test.",
+    "authors": [
+        {
+            "name": "Mohammad Ariful Haque Khan",
+            "email": "neconest@gmail.com"
+        }
+    ],
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "files": ["src/funtions.php"]
+    },
+
+    "require": {
+        "php": "^7.0",
+        "phpunit/phpunit": "5.7.*"
+    },
+
+    "minimum-stability": "dev"
+}
